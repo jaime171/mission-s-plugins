@@ -1,6 +1,6 @@
 /**
  * Buster Up plug-in
- * Mission-s plug-in's
+ * Mission-s plug-ins
  *
  * -Takes an item and animates when the user scroll that section.
  *

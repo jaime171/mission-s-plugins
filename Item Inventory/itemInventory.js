@@ -1,7 +1,7 @@
 /**
  *
  * Item Inventory plug-in
- * Mission-s plug-in's
+ * Mission-s plug-ins
  *
  *
  * -Responsive menu animations.
