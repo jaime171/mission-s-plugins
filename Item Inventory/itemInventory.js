@@ -1,7 +1,7 @@
 /**
  *
  * Item Inventory plug-in
- * Mission-s plug-ins
+ * Mission-s plug-in's
  *
  *
  * -Responsive menu animations.
@@ -15,7 +15,7 @@
  *         showEffect
  *         slideHalfEffect
  *  - menuBreakPoint             (integer 'default: 750')
- *
+ *  - menuPosition               (string 'default: right')
  *
  * Author :   Jaime Simental
  * Twitter:   @jaimesimental
@@ -33,9 +33,10 @@
   $.fn.menuAnimation = function(options){
 
     var defaults = {
-      menuBorder:    false,
-      animation:     'fadeInEffect',
-      menuBreakPoint: 750
+      menuBorder    : false,
+      animation     : 'fadeInEffect',
+      menuBreakPoint: 750,
+      menuPosition  : 'right'
     };
 
     var opts = $.extend(true, {}, defaults, options);
@@ -51,22 +52,22 @@
 
         // Adding styles to menu
         $item.css({
-          'cursor': 'pointer',
-          'padding': 2
+          'cursor' : 'pointer',
+          'padding': 2,
+          'float'  : opts.menuPosition
         });
 
         // Ading styles to lines
         $lines.css({
-          'display': 'block',
-          'background-color': 'white',
-          'height': 4,
-          'width': 28,
-          'margin': 5
+          'display'         : 'block',
+          'height'          : 4,
+          'width'           : 28,
+          'margin'          : 5
         });
 
         if(opts.menuBorder) {
           $item.css({
-            'border': 'solid 2px white',
+            'border'       : 'solid 2px white',
             'border-radius': 5
           });
         }
@@ -80,9 +81,9 @@
           $itemHeight = $item.outerHeight() / 2;
 
         $item.css({
-          'margin-top': $parentHeight - $itemHeight,
+          'margin-top'  : $parentHeight - $itemHeight,
           'margin-right': ($parentHeight - $itemHeight) / 2,
-          'margin-left': ($parentHeight - $itemHeight) / 2
+          'margin-left' : ($parentHeight - $itemHeight) / 2
         });
 
         $item.parent().css({
@@ -99,7 +100,7 @@
           $navColor = $item.parent().css('background-color');
 
         $menuDisplay.css({
-          'top': $navHeight, // Get's header height
+          'top'             : $navHeight, // Get's header height
           'background-color': $navColor // Get's header color
         });
 

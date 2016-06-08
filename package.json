@@ -1,0 +1,22 @@
+{
+  "name": "mission-s-plugins",
+  "version": "1.0.0",
+  "description": "jQuery animation plugins to power up your projects.",
+  "author" : "Jaime Simental",
+  "email" : "simental@insidethebuffalo.com",
+  "url" : "http://missionjimmy.com/mission-s",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaime171/mission-s-plugins"
+  },
+  "keywords": [
+    "static website",
+    "static",
+    "sass",
+    "jquery",
+    "plugin",
+    "jquery plugin",
+    "plugins",
+    "front-end"
+  ]
+}
