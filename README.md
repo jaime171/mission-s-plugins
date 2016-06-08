@@ -19,7 +19,7 @@ Uses window scroll event to detects when the object is in the centered and make 
  
 ## Getting Started
 
-This plugin requires jQuery[https://jquery.com/] library.
+This plugin requires [jQuery](https://jquery.com/) library.
 
 ## Setup
 
@@ -30,3 +30,39 @@ You need to declare the plugin after adding the jQuery.
 
 <script src="routeToJsFiles/busterUp.js"></script>
 ```
+
+## Use
+
+Just select any item like any jQuery selector and call the plugin.
+
+```javascript
+
+$('h1').scrollAnimation();
+
+```
+######Options(defaults)
+
+*  - slide       (object)
+ *      - left    (boolean 'default: false')
+ *      - top     (boolean 'default: false')
+*  - distance    (integer 'default: -20')
+*  - time        (integer 'default: 700')
+*  - position    (string 'default: relative')
+ 
+```javascript
+
+$('h1').scrollAnimation({
+  'slide': {
+    'left': false,
+    'top': false
+  },
+  'distance': -20,
+  'time': 700,
+  'position': relative
+});
+
+```
+
+You can find more plugins on [missionjimmy](http://missionjimmy.com/mission-s)
+
+
