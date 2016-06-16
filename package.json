@@ -1,6 +1,6 @@
 {
   "name": "mission-s-plugins",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "jQuery animation plugins to power up your projects.",
   "author" : "Jaime Simental",
   "email" : "simental@insidethebuffalo.com",
@@ -17,6 +17,7 @@
     "plugin",
     "jquery plugin",
     "plugins",
-    "front-end"
+    "front-end",
+    "jquery-plugin"
   ]
 }

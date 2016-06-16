@@ -1,7 +1,7 @@
 /**
  *
  * Item Inventory plug-in
- * Mission-s plug-in's
+ * Mission-s plugins
  *
  *
  * -Responsive menu animations.
@@ -46,7 +46,7 @@
 
     // Menu Object
     var menu = {
-      // Hamburguer menu style
+      // Hamburger menu style
       createLines: function() {
         var $lines = $('<span></span><span></span><span></span>');
 
@@ -57,7 +57,7 @@
           'float'  : opts.menuPosition
         });
 
-        // Ading styles to lines
+        // Adding styles to lines
         $lines.css({
           'display'         : 'block',
           'height'          : 4,

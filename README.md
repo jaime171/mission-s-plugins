@@ -19,11 +19,11 @@ Uses window scroll event to detects when the object is in the centered and make 
  
 ## Getting Started
 
-This plugin requires [jQuery](https://jquery.com/) library.
+All plug ins requires [jQuery](https://jquery.com/) library.
 
 ## Setup
 
-You need to declare the plugin after adding the jQuery.
+You need to declare the plug in after adding the jQuery.
 
 ```javascript
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -42,12 +42,12 @@ $('h1').scrollAnimation();
 ```
 ######Options(defaults)
 
-*  - slide       (object)
- *      - left    (boolean 'default: false')
- *      - top     (boolean 'default: false')
-*  - distance    (integer 'default: -20')
-*  - time        (integer 'default: 700')
-*  - position    (string 'default: relative')
+*   slide       (object)
+ *  left    (boolean 'default: false')
+ *  top     (boolean 'default: false')
+*   distance    (integer 'default: -20')
+*   time        (integer 'default: 700')
+*   position    (string 'default: relative')
  
 ```javascript
 
@@ -63,6 +63,76 @@ $('h1').scrollAnimation({
 
 ```
 
-You can find more plugins on [missionjimmy](http://missionjimmy.com/mission-s)
 
 
+## Item Inventory Features
+Adds a responsive hamburger menu, you can change breakpoint and display animation.
+
+## Setup
+
+You need to declare the plug in after adding the jQuery. Also you need to include sass variables file.
+
+```html
+<header>
+    <nav class = "menu"></nav>
+    <div class = "menu-display" >
+        <div class = "vertical-align" >
+            <div class = "vertical-margin" >
+            </div>
+        </div>
+    </div>
+</header>
+```
+
+```javascript
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+
+<script src="routeToJsFiles/itemInventory.js"></script>
+```
+
+## Use
+
+```javascript
+
+$('.menu').menuAnimation();
+
+```
+
+
+######Options(defaults)
+
+*  animation (string 'default: fadeInEffect') 
+ * fadeInEffect 
+ * slideDownEffect 
+ * showEffect 
+ * slideHalfEffect 
+*  menuBreakPoint (integer 'default: 750') 
+*  menuPosition (string 'default: right') 
+*  menuBorder (boolean 'default: false')
+
+
+
+######Sass Variables(defaults)
+
+* Header background color, responsive menu will take this color too
+  * $header-bg-color    : $main-color
+
+* Header nav menu item color
+  * $menu-item-color    : black
+
+* Header height
+  * $menu-height        : 85px
+
+* Hamburguer menu lines color
+  * $hb-menu-color-lines: white
+
+* Menu breakpoint(Must be the same as js menu breakpoint)
+  * $menu-breakpoint    : 750px
+
+
+
+
+
+
+
+You can find more plugins on [missionjimmy](http://missionjimmy.com/projects/mission-s-plugins/)
