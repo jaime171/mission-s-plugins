@@ -3,7 +3,7 @@
   <img src="http://missionjimmy.com/images/logo-v2.svg" height="200">
 </p>
 
-# Mission-s Power ups 
+# Mission-s Power ups
 
 jQuery animation plugins to power up your project.
 You can use only the plugin that you need or use them all.
@@ -15,23 +15,15 @@ You can use only the plugin that you need or use them all.
 
 ## Buster Up Features
 Uses window scroll event to detects when the object is in the centered and make the animation.
- 
- 
+
+
 ## Getting Started
 
-<<<<<<< HEAD
 All plug ins requires [jQuery](https://jquery.com/) library.
 
 ## Setup
 
 You need to declare the plug in after adding the jQuery.
-=======
-This plugin requires [jQuery](https://jquery.com/) library.
-
-## Setup
-
-You need to declare the plugin after adding the jQuery.
->>>>>>> 082042bbad0845f843b6f7155b85cd79111f79dc
 
 ```javascript
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -50,22 +42,13 @@ $('h1').scrollAnimation();
 ```
 ######Options(defaults)
 
-<<<<<<< HEAD
 *   slide       (object)
  *  left    (boolean 'default: false')
  *  top     (boolean 'default: false')
 *   distance    (integer 'default: -20')
 *   time        (integer 'default: 700')
 *   position    (string 'default: relative')
-=======
-*  - slide       (object)
- *      - left    (boolean 'default: false')
- *      - top     (boolean 'default: false')
-*  - distance    (integer 'default: -20')
-*  - time        (integer 'default: 700')
-*  - position    (string 'default: relative')
->>>>>>> 082042bbad0845f843b6f7155b85cd79111f79dc
- 
+
 ```javascript
 
 $('h1').scrollAnimation({
@@ -80,7 +63,6 @@ $('h1').scrollAnimation({
 
 ```
 
-<<<<<<< HEAD
 
 
 ## Item Inventory Features
@@ -119,13 +101,13 @@ $('.menu').menuAnimation();
 
 ######Options(defaults)
 
-*  animation (string 'default: fadeInEffect') 
- * fadeInEffect 
- * slideDownEffect 
- * showEffect 
- * slideHalfEffect 
-*  menuBreakPoint (integer 'default: 750') 
-*  menuPosition (string 'default: right') 
+*  animation (string 'default: fadeInEffect')
+ * fadeInEffect
+ * slideDownEffect
+ * showEffect
+ * slideHalfEffect
+*  menuBreakPoint (integer 'default: 750')
+*  menuPosition (string 'default: right')
 *  menuBorder (boolean 'default: false')
 
 
@@ -141,11 +123,11 @@ $('.menu').menuAnimation();
 * Header height
   * $menu-height        : 85px
 
-* Hamburguer menu lines color
-  * $hb-menu-color-lines: white
+*Hamburguer menu lines color
+* $hb-menu-color-lines: white
 
-* Menu breakpoint(Must be the same as js menu breakpoint)
-  * $menu-breakpoint    : 750px
+*Menu breakpoint(Must be the same as js menu breakpoint)
+* $menu-breakpoint    : 750px
 
 
 
@@ -154,8 +136,3 @@ $('.menu').menuAnimation();
 
 
 You can find more plugins on [missionjimmy](http://missionjimmy.com/projects/mission-s-plugins/)
-=======
-You can find more plugins on [missionjimmy](http://missionjimmy.com/mission-s)
-
-
->>>>>>> 082042bbad0845f843b6f7155b85cd79111f79dc
