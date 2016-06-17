@@ -19,11 +19,19 @@ Uses window scroll event to detects when the object is in the centered and make 
  
 ## Getting Started
 
+<<<<<<< HEAD
 All plug ins requires [jQuery](https://jquery.com/) library.
 
 ## Setup
 
 You need to declare the plug in after adding the jQuery.
+=======
+This plugin requires [jQuery](https://jquery.com/) library.
+
+## Setup
+
+You need to declare the plugin after adding the jQuery.
+>>>>>>> 082042bbad0845f843b6f7155b85cd79111f79dc
 
 ```javascript
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
@@ -42,12 +50,21 @@ $('h1').scrollAnimation();
 ```
 ######Options(defaults)
 
+<<<<<<< HEAD
 *   slide       (object)
  *  left    (boolean 'default: false')
  *  top     (boolean 'default: false')
 *   distance    (integer 'default: -20')
 *   time        (integer 'default: 700')
 *   position    (string 'default: relative')
+=======
+*  - slide       (object)
+ *      - left    (boolean 'default: false')
+ *      - top     (boolean 'default: false')
+*  - distance    (integer 'default: -20')
+*  - time        (integer 'default: 700')
+*  - position    (string 'default: relative')
+>>>>>>> 082042bbad0845f843b6f7155b85cd79111f79dc
  
 ```javascript
 
@@ -63,6 +80,7 @@ $('h1').scrollAnimation({
 
 ```
 
+<<<<<<< HEAD
 
 
 ## Item Inventory Features
@@ -136,3 +154,8 @@ $('.menu').menuAnimation();
 
 
 You can find more plugins on [missionjimmy](http://missionjimmy.com/projects/mission-s-plugins/)
+=======
+You can find more plugins on [missionjimmy](http://missionjimmy.com/mission-s)
+
+
+>>>>>>> 082042bbad0845f843b6f7155b85cd79111f79dc
