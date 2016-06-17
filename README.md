@@ -102,10 +102,10 @@ $('.menu').menuAnimation();
 ######Options(defaults)
 
 *  animation (string 'default: fadeInEffect')
- * fadeInEffect
- * slideDownEffect
- * showEffect
- * slideHalfEffect
+  * fadeInEffect
+  * slideDownEffect
+  * showEffect
+  * slideHalfEffect
 *  menuBreakPoint (integer 'default: 750')
 *  menuPosition (string 'default: right')
 *  menuBorder (boolean 'default: false')
@@ -124,13 +124,10 @@ $('.menu').menuAnimation();
   * $menu-height        : 85px
 
 *Hamburguer menu lines color
-* $hb-menu-color-lines: white
+  * $hb-menu-color-lines: white
 
 *Menu breakpoint(Must be the same as js menu breakpoint)
-* $menu-breakpoint    : 750px
-
-
-
+  * $menu-breakpoint    : 750px
 
 
 
