@@ -123,13 +123,13 @@ $('.menu').menuAnimation();
 * Header height
   * $menu-height        : 85px
 
-*Hamburguer menu lines color
+* Hamburger menu lines color
   * $hb-menu-color-lines: white
 
-*Menu breakpoint(Must be the same as js menu breakpoint)
+* Menu breakpoint(Must be the same as js menu breakpoint)
   * $menu-breakpoint    : 750px
 
 
 
 
-You can find more plugins on [missionjimmy](http://missionjimmy.com/projects/mission-s-plugins/)
+You can find more plug ins on [missionjimmy](http://missionjimmy.com/projects/mission-s-plugins/)
