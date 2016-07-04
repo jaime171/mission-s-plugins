@@ -102,7 +102,7 @@
     }
 
     // Check if the item is at the middle of the screen (Scroll Event).
-    $(window).scroll(function(){
+    $(window).on('scroll', function(e){
       if($elemenPosition <= ($middle.scrollTop() + $(window).outerHeight() / 1.6)) {
         $item.animate({
           opacity: 1
@@ -122,10 +122,11 @@
         } else if (opts.slide.left) {
           slideLeftFunction(opts.slide.left);
         }
-        $(window).off('scroll');
+        $item.off(e);
         return this;
       }
     });
+
     return this;
   };
 }( jQuery ));
